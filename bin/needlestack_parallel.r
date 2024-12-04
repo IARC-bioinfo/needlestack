@@ -310,7 +310,7 @@ write_vcf_header <- function(samples) {
     write_out("##source=needlestack v1.1")
     write_out("##reference=", fasta_ref)
     write_out("##contig=<ID=MT,length=16569>")
-    write_out("##contig=<ID=MT_8k,length=16569>")
+    write_out("##contig=<ID=MT_8000,length=16569>")
     write_out("##phasing=none")
     write_out("##filter=\"QVAL > ", GQ_threshold, " & ", SB_type, "_SNV < ", SB_threshold_SNV,
         " & ", SB_type, "_INDEL < ", SB_threshold_indel, " & min(AO) >= ", min_reads,
